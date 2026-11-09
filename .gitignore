@@ -8,3 +8,6 @@ Thumbs.db
 # IDE/editor settings
 .vscode/
 .idea/
+
+# data
+/Milestone 3/mdl_cache
