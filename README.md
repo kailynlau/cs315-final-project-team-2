@@ -38,7 +38,10 @@ Contains preliminary work using MyDramaList (MDL) to identify a more targeted sa
 1. m3_1 (obsolete) - identify 100-150 music-centered dramas
      - Given a set of tags, find the equivalent tag IDs on MDL
      - Scrape MDL using the tag IDs to find relevant music-centered dramas 
-     - Save HTMLs in mdl_cache
+     - Save HTMLs in `mdl_cache`
+     - Save dramas in `mdl_music_kdrama_candidates.csv`
+2. m3_2 (obsolete) - partner notebook to m3_1, manually reviewing the dramas that needed to be reviewed
+     - Save dramas in `mdl_music_kdrama_cleaned.csv`
 
 ## Data Collection and Analysis
 
