@@ -42,6 +42,10 @@ Contains preliminary work using MyDramaList (MDL) to identify a more targeted sa
      - Save dramas in `mdl_music_kdrama_candidates.csv`
 2. m3_2 (obsolete) - partner notebook to m3_1, manually reviewing the dramas that needed to be reviewed
      - Save dramas in `mdl_music_kdrama_cleaned.csv`
+3. m3_3 (obsolete) - scrape the DramaWiki pages
+     - Scrape DramaWiki to find the show, OST, and main actor pages for each drama in `mdl_music_kdrama_cleaned.csv`
+     - Save each scraped HTML in `raw_html/`, keeping a record of results in `raw_html/manifest.csv`
+     - Track each drama with missing show pages, for future analysis (there were a lot)
 
 ## Data Collection and Analysis
 
