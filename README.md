@@ -36,7 +36,7 @@ The original discovery notebook is retained for reference, but its approach is n
 Contains preliminary work using MyDramaList (MDL) to identify a more targeted sample of music-centered K-dramas.
 
 1. m3_1 (obsolete) - identify 100-150 music-centered dramas
-     - Given a set of tags, find the equivalent tag IDs on MDL
+     - Given a set of tags, find the equivalent tag IDs on MDL and save in `mdl_tag_ids.json`
      - Scrape MDL using the tag IDs to find relevant music-centered dramas 
      - Save HTMLs in `mdl_cache`
      - Save dramas in `mdl_music_kdrama_candidates.csv`
@@ -46,6 +46,7 @@ Contains preliminary work using MyDramaList (MDL) to identify a more targeted sa
      - Scrape DramaWiki to find the show, OST, and main actor pages for each drama in `mdl_music_kdrama_cleaned.csv`
      - Save each scraped HTML in `raw_html/`, keeping a record of results in `raw_html/manifest.csv`
      - Track each drama with missing show pages, for future analysis (there were a lot)
+4. m3_4 (obsolete) - partner notebook to m3_3, manually reviewing the dramas that needed to be reviewed
 
 ## Data Collection and Analysis
 
