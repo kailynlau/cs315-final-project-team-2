@@ -10,5 +10,6 @@ Thumbs.db
 .idea/
 
 # data
-/Milestone 3/mdl_cache
-/Milestone 3/raw_html
+dataset1_mdl/mdl_cache
+dataset1_mdl/mdl_html
+Milestone 3/raw_html_m3_3_old
